@@ -1,0 +1,8 @@
+tasks:
+  - init: |
+      pyenv shell 3.7.7
+      /home/gitpod/.pyenv/versions/3.7.7/bin/python3 -m pip install -U pylint
+      pip3 install pytest
+      clear
+#  - init: clear
+#    command: echo 'start script'

@@ -3,14 +3,15 @@
 Use this master template to create CT Assignment Templates.
 
 ## Problem Description
-Problem description goes here. 
+The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.
 
 * Steps to take go here. 
 
 ## Example
 ```
-Value to increment? 5
-10
+sleep_in(False, False) → True
+sleep_in(True, False) → False
+sleep_in(False, True) → True
 ```
 
 ## Suggested Approach

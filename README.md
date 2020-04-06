@@ -15,10 +15,7 @@ sleep_in(False, True) → True
 ```
 
 ## Suggested Approach
-1) Suggestions go here
-
-## Hints
-* Use `input()` to prompt the user for a value. 
+Check if weekday or vacation.
 
 Add code to [my_code.py](./my_code.py) to make it do the desired thing.
 

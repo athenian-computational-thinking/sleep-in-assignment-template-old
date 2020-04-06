@@ -1,4 +1,4 @@
-# Sleep-in Assignment Template 
+# Sleep-in Assignment  
 
 ## Problem Description
 The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. 

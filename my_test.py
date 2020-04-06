@@ -1,7 +1,8 @@
-from my_code import inc
+from my_code import sleep_in
 
 
-def test_inc():
-    assert 5 == inc(4)
-    assert 1 == inc(0)
-    assert 0 == inc(-1)
+def test_sleep_in():
+    assert True == sleep_in(False, False)
+    assert False == sleep_in(True, False)
+    assert True == sleep_in(False, True)
+    assert True == sleep_in(True, True)

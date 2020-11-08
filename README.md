@@ -15,12 +15,10 @@ sleep_in(False, True) → True
 Check the values of weekday and vacation and return the appropriate value.
 
 
-## Run your code with:
-```shell script
-make run
-```
+## Run your code:
+Test your function by changing the arguments in the function call and running the program. To save time, feel free to use multiple function calls with different arguments.
 
 ## Run your tests with:
 ```shell script
-make test
+pytest
 ```
